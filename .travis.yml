@@ -52,6 +52,14 @@ matrix:
         - COMPILER=GCC
       services: docker
 
+    - os: linux
+      env:
+        - BUILD_NAME=EOAN_RELEASE
+        - DOCKERFILE="Dockerfile.ubuntu-eoan"
+        - BUILD_TYPE=Release
+        - COMPILER=GCC
+      services: docker
+
     - os: osx
       osx_image: xcode10.2
       compiler: clang

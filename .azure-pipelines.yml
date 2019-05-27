@@ -113,8 +113,8 @@ jobs:
   timeoutInMinutes: 0
   strategy:
     matrix:
-      Debug64:
-        CONFIGURATION: 'Debug'
+      # Debug64:
+      #   CONFIGURATION: 'Debug'
       Release64:
         CONFIGURATION: 'Release'
   variables:
